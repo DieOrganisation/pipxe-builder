@@ -40,4 +40,4 @@ Description:
 
 
 TODO: Automate customization, add pipxe as submodule maybe? 
-
+HINT: Files in pipxe_src/pi_pxe_custom_cfg are for testing purposes. Ignore them for now.
