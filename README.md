@@ -31,10 +31,10 @@ After that run the container and let it do its magic with
 `dcoker run -it -v "$(pwd)"/pipxe_src:/home/workdir -w /home/pipxe_src localhost/pipxegcc7`
 
 Description: 
--it => Interactive run
--v => Mount your pipxe_src (here is the pipxe code located) into the container* 
--w => set the working dir to /home/pipxe_src 
-localhost/pipxegcc7 => image name 
+* -it => Interactive run
+* -v => Mount your pipxe_src (here is the pipxe code located) into the container* 
+* -w => set the working dir to /home/pipxe_src 
+* localhost/pipxegcc7 => image name 
 
 \* :z is a SELinux flag, podman needs it because it runs rootless see [Podman Volumes and SELinux](https://blog.christophersmart.com/2021/01/31/podman-volumes-and-selinux/) for further details)
 
